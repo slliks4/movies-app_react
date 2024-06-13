@@ -11,7 +11,7 @@ const Header = lazy(()=> import('../../components/app/Header'));
 // Function
 export default function AppLayout() {
     return (
-        <div class="container">
+        <div className="container">
             <Header />
             <Outlet />
         </div>

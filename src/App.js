@@ -4,6 +4,9 @@ import { lazy } from "react";
 // React Router Dom Imports
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+// Config Import
+
+import { apiKey, apiUrl } from './config/api'
 // ToastContainer
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from "./imports/Global";
