@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101010;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.searchBlock {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#searchInput {
+    width: 250px;
+    height: 20px;
+    background-color: #101010;
+    color: white;
+    border: none;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    outline: none;
+    font-size: 17px;
+}
+
+#searchBtn {
+    padding: 11px;
+    background: linear-gradient(120deg, rgb(71, 71, 167), rgb(170, 75, 170));
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#searchBtn:hover {
+    background: linear-gradient(120deg, rgb(84, 84, 199), rgb(196, 86, 196));
+}
+
+#movieResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.movieCard {
+    width: 250px;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#movieImgBlock {
+    width: 250px;
+    height: 380px;
+    overflow: hidden;
+}
+#movieImgBlock img {
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
